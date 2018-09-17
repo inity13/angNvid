@@ -1,0 +1,45 @@
+{
+    "algo": "cryptonight/1",
+    "api": {
+        "port": 0,
+        "access-token": null,
+        "worker-id": null,
+        "ipv6": false,
+        "restricted": true
+    },
+    "background": false,
+    "colors": true,
+    "cuda-bfactor": 8,
+    "cuda-bsleep": 100,
+    "cuda-max-threads": 30,
+    "donate-level": 1,
+    "log-file": null,
+    "pools": [
+        {
+            "url": "eu.pool.safexnews.net:3333",
+            "user": "Safex5zMzthcY952uqTBGLZQuZ3pkoyhUSUCVdi2WWEmXBwW3QecbnvehpBGpmHrDeipP8kd5YBbBGTjY7dDJjoDRNrAJLEn1j455",
+            "pass": "xNVID",
+            "rig-id": null,
+            "nicehash": false,
+            "keepalive": true,
+            "variant": 1
+        }
+    ],
+    "print-time": 60,
+    "retries": 5,
+    "retry-pause": 5,
+    "threads": [
+        {
+            "index": 0,
+            "threads": 8,
+            "blocks": 30,
+            "bfactor": 8,
+            "bsleep": 100,
+            "sync_mode": 3,
+            "affine_to_cpu": false
+        }
+    ],
+    "user-agent": null,
+    "syslog": false,
+    "watch": false
+}
